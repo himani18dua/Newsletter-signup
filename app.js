@@ -28,10 +28,10 @@ app.post("/",function(req,res){
   ]
   };
   const jsonData= JSON.stringify(data);
-  const url='https://us9.api.mailchimp.com/3.0/lists/8b28022e77';
+  const url='https://us9.api.mailchimp.com/3.0/lists/{list_id}';
   const options={
     method:"POST",
-    auth:"himani1:38de8fabc2b3cb2da6265ccb1d4023c8-us9",
+    auth:"himani1:{apikey}",
   }
   
 const request=https.request(url,options,function(response){
