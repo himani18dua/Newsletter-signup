@@ -55,7 +55,4 @@ request.end();
 app.get("/",function(req,res){
     res.sendFile(__dirname+"/signup.html");
 })
-// //apikey
-//38de8fabc2b3cb2da6265ccb1d4023c8-us9
-//listid
-//8b28022e77
+
